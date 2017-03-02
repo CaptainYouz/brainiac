@@ -1,0 +1,24 @@
+{
+  "name": "brainiac",
+  "version": "0.0.1",
+  "description": "Small node server using Express and socket.io to control GPIO of a Raspberry PI Edit",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.0",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaptainYouz/brainiac.git"
+  },
+  "author": "CaptainYouz <captainyouz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CaptainYouz/brainiac/issues"
+  },
+  "homepage": "https://github.com/CaptainYouz/brainiac#readme"
+}

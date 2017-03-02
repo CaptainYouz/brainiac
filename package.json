@@ -1,7 +1,7 @@
 {
   "name": "brainiac",
   "version": "0.0.1",
-  "description": "Small node server using Express and socket.io to control GPIO of a Raspberry PI Edit",
+  "description": "Small node server using Express and socket.io to control GPIO of a Raspberry PI Edit through web socket",
   "main": "index.js",
   "dependencies": {
     "express": "^4.15.0",

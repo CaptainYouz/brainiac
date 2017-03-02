@@ -13,7 +13,7 @@ var Brainiac = {
       return false;
     },
     getPinValue: function(pinValue) {
-      let parsedPinValue = parseInt(pinValue);
+      var parsedPinValue = parseInt(pinValue);
       return (parsedPinValue === 0 || parsedPinValue === 1) ? parsedPinValue : false;
     }
   },
@@ -21,7 +21,7 @@ var Brainiac = {
     exec('gpio -g mode ' + pin + ' ' + mode);
   },
   write: function(pin, value) {
-    exec('gpio -g mode ' + pin + ' ' + value);
+    exec('gpio -g write ' + pin + ' ' + value);
   }
 };
 
